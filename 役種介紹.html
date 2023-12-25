@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>日本麻將教學網站</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    
+    <link href="styles/基本.css" rel="stylesheet" type="text/css">
+    <link href="styles/首頁.css" rel="stylesheet" type="text/css">
+    <link href="styles/書籤.css" rel="stylesheet" type="text/css">
+    
+
+    <script src="scripts/書籤動畫效果.js"></script>
+
+  </head>
+  <body>
+    <div class="grid"  style="height: 100%;">
+      <header class="header">
+        <div class="logo"> <!-- 這裡放你的logo -->
+          <a href="./">
+            <img src="images/麻將.png" height="100px">
+          </a>    
+        </div>
+        <h1 class="title">日本麻將教學網站</h1>
+      </header>
+    
+      <header class="sticky-header__header"> 
+        <table class="sticky-table-headers">
+            <tbody>
+                <tr>
+                  <th><a href="基本教學.html"><button>👨‍🎓基本教學</button></a></th>
+                  <th><a href="役種介紹.html"><button>🀄役種介紹</button></a></th>
+                  <th><a href="qwe.html"><button>💻其他資訊</button></a></th>
+                  <th><a href="qwe.html"><button>😀關於我們</button></a></th>
+                  
+                </tr>
+            </tbody>
+        </table>
+      </header>
+      <br>
+      <div class="parent">
+        <div class="div1" > 
+          <li><a href="#1">一飜役</a></li>
+          <li><a href="#2">二飜役</a></li>
+          <li><a href="#3">三飜役</a></li>
+          <li><a href="#4">滿貫役</a></li>
+          <li><a href="#5">六飜役</a></li>  
+          <li><a href="#6">役滿役</a></li>      
+        </div>
+
+        <div class="div3">
+          <h2 id = 1>一飜役</h2>
+          <h3>一飜役 無限制</h3>
+          <table border="1">
+            <tr>
+                <th>役名</th>
+                <th>類型</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td rowspan="2">斷么九</td>
+                <td>推薦</td>
+                <td>和牌時不存在么九牌。么九牌=🀇🀏🀐🀘🀙🀡🀙2z3z4z5z6z7z</td>
+            </tr>
+            <tr>
+                <td colspan="2">*註：根據規則不同，有些情況下本役要求門清；三人麻將允許拔北時，被拔的北不計算在內。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">役牌</td>
+                <td>自風牌</td>
+                <td>自風牌刻子或槓子，首次出牌人自風為東，其他三家按逆時針自風依次為南、西、北</td>
+            </tr>
+            <tr>
+                <td colspan="2">*3z3z3z 牌背牌背牌背 牌背牌背牌背 牌背牌背牌背 牌背牌背</td>
+            </tr>
+            <tr>
+                <td rowspan="2">場風牌</td>
+                <td>場風刻子或槓子</td>
+                <td>東N局，場風為東，南局場風南</td>
+            </tr>
+            <tr>
+                <td colspan="2">*🀙🀙🀙 牌背牌背牌背 牌背牌背牌背 牌背牌背牌背 牌背牌背</td>
+            </tr>
+            <tr>
+                <td rowspan="2">三元牌</td>
+                <td>5z6z7z刻子或槓子</td>
+                <td>役牌都是可疊加的</td>
+            </tr>
+            <tr>
+                <td colspan="2">*6z6z6z 牌背牌背牌背 牌背牌背牌背 牌背牌背牌背 牌背牌背</td>
+            </tr>
+            <tr>
+                <td>河底摸魚</td>
+                <td>偶然</td>
+                <td>和最後一張打出的牌</td>
+            </tr>
+            <tr>
+                <td>嶺上開花</td>
+                <td>偶然</td>
+                <td>槓後摸嶺上牌補牌時自摸</td>
+            </tr>
+            <tr>
+                <td>搶槓</td>
+                <td>偶然</td>
+                <td>和加槓的牌</td>
+            </tr>
+            <tr>
+                <td>海底撈月</td>
+                <td>偶然</td>
+                <td>自摸最後一張牌</td>
+            </tr>
+          </table>  
+          <h3>一飜役 只能門前淸</h3>
+          <table border="1">
+            <tr>
+                <th>役名</th>
+                <th>類型</th>
+                <th>描述</th>
+            </tr>
+            <tr>
+                <td rowspan="2">立直</td>
+                <td>推薦</td>
+                <td>門前淸時，支付1000點宣告聽牌，立直後只能暗槓與和牌。如果規則有里寶，則和牌後，翻開里寶表示牌。</td>
+            </tr>
+            <tr>
+                <td colspan="2">*里寶：和牌後，翻開里寶表示牌。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">一發</td>
+                <td>偶然</td>
+                <td>立直後，在一巡內完成和牌。並且，期間不能有人的吃、碰、槓、拔北。如果別人加槓或拔北時搶槓或和北，則加槓或拔北不成立；若此時之前無其他吃碰槓行為，則一發仍然成立。</td>
+            </tr>
+            <tr>
+                <td colspan="2">*一發：在一巡內完成和牌，期間不能有他家吃碰槓行為。</td>
+            </tr>
+            <tr>
+                <td>門前淸自摸和</td>
+                <td>容易</td>
+                <td>門前淸時，自摸</td>
+            </tr>
+            <tr>
+                <td rowspan="2">平和</td>
+                <td>推薦</td>
+                <td>除自摸外沒有額外的符數。即只有順子、雀頭不能是自風或場風或三元牌，且兩面聽牌。註：通常情況下，平和自摸計20符2飜，自摸的2符被捨去；有些規則自摸和平和不能兼得。</td>
+            </tr>
+            <tr>
+                <td colspan="2">*通常情況下，平和自摸計20符2飜，自摸的2符被捨去；有些規則自摸和平和不能兼得。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">一盃口</td>
+                <td>容易</td>
+                <td>一組相同的順子</td>
+            </tr>
+            <tr>
+                <td colspan="2">*🀙🀙2p2p3p3p 牌背牌背牌背 牌背牌背牌背 牌背牌背牌背 牌背牌背</td>
+            </tr>
+          </table>
+          
+          <h2 id = 2>二飜役</h2>
+          <h3>二飜役 無限制</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td rowspan="2">對對和</td>
+                  <td>容易</td>
+                  <td>全是刻子、槓子。同國標麻將「對對和」。</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*5z5z5z2s2s🀙🀙橫🀙 2m橫2m2m 🀏🀏加槓9🀏</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">三暗刻</td>
+                  <td>稍難</td>
+                  <td>暗刻+暗槓=3</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*2m2m2m🀙🀙🀙 牌背🀇🀇牌背 牌背牌背牌背 牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">三槓子</td>
+                  <td>超難</td>
+                  <td>三組槓子</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*橫2m2m2m2m 加槓1🀙🀙🀙 牌背🀇🀇牌背 牌背牌背牌背 牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">三色同刻</td>
+                  <td>難</td>
+                  <td>3組同一數字的刻子（或槓子）</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*2m2m2m 橫2s2s2s 2p2p橫2p 牌背牌背牌背 牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">混老頭</td>
+                  <td>稍難</td>
+                  <td>么九牌組成的七對子或對對和。必須有字牌，不能全是字牌。</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*🀇🀇🀇🀏🀏🀏🀐🀐🀘🀘橫🀘 3z3z橫3z</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">小三元</td>
+                  <td>稍難</td>
+                  <td>三元牌刻子或槓子=2，三元牌雀頭=1。註：小三元成立時，另計兩組役牌，如上述牌例另計中、發。</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*7z7z7z5z5z5z6z6z 牌背牌背牌背 牌背牌背牌背</td>
+              </tr>
+          </table>
+          <h3>二飜役 副露後1翻</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td rowspan="2">三色同順</td>
+                  <td>普通</td>
+                  <td>3種花色同一順子</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*2m3m4m 橫3p2p4p 橫4s2s3s 牌背牌背牌背 牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">一氣通貫</td>
+                  <td>普通</td>
+                  <td>同花色的123，456，789三組順子。同國標麻將「清龍」。</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*4m5m橫6m 橫3m🀇2m 橫8m7m🀏 牌背牌背牌背 牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">混全帶么九</td>
+                  <td>普通</td>
+                  <td>所有面子，對子都帶🀇🀏🀐🀘🀙🀡🀙2z3z4z5z6z7z（必須有順子，必須有字牌，不能全是字牌。）同國標麻將「全帶么」。</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*🀐2s3s🀙🀙橫🀙 7s8s🀘 🀙2p3p 7p8p🀡</td>
+              </tr>
+          </table>
+          <h3>二飜役 只能門前淸</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td>七對子</td>
+                  <td>普通</td>
+                  <td>對子=7（四張牌不能當作2組對子）</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*🀇🀇4m4m🀙🀙4p4p🀐🀐2s🀙🀙橫2s</td>
+              </tr>
+              <tr>
+                  <td>兩立直</td>
+                  <td>偶然</td>
+                  <td>在第一巡、無吃、碰、槓、拔北時即宣告立直。</td>
+              </tr>
+          </table>
+
+          <h2 id="3">三飜役</h2>
+          <h3>三飜役 副露後2翻</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td rowspan="2">混一色</td>
+                  <td>容易</td>
+                  <td>同花色的牌+字牌</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*🀇2m3m4m5m6m8m8m3z3z橫3z 5m6m7m 🀙🀙橫🀙</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">純全帶么九</td>
+                  <td>稍難</td>
+                  <td>所有面子，對子都帶🀇🀏🀐🀘🀙🀡。（必須有順子）</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*🀐2s3s🀇2m橫3m 7s8s🀘 🀙2p3p 7p8p🀡</td>
+              </tr>
+          </table>
+          <h3>三飜役 只能門前淸</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td rowspan="2">二盃口</td>
+                  <td>難</td>
+                  <td>2組一盃口（🀙🀙🀙🀙2p2p2p2p3p3p3p3p也算2杯口）</td>
+              </tr>
+              <tr>
+                  <td colspan="2">*🀙🀙2p2p3p3p7p7p8p8p🀡🀡🀇🀇</td>
+              </tr>
+          </table>
+
+          <h2 id="4">滿貫役</h2>
+          <h3>滿貫役 無限制</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td rowspan="2">流局滿貫</td>
+                  <td>難</td>
+                  <td>荒牌流局前打出的牌全是么九牌，所有牌不被他人吃碰槓<br>（自己不需聽牌，自己的吃碰槓不影響流局滿貫）</td>
+              </tr>
+     
+          </table>
+          
+          <h2 id="5">六飜役</h2>
+          <h3>六飜役 副露後5翻</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td rowspan="2">清一色</td>
+                  <td>稍難</td>
+                  <td>全是花色相同的牌<br>🀇2m3m4m5m6m8m8m🀏🀏橫🀏 5m6m7m</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀇2m3m4m5m6m8m8m🀏🀏橫🀏　5m6m7m
+                  </td>
+              </tr>
+          </table>
+
+          <h2 id="6">役滿役</h2>
+          <h3>役滿役 無限制</h3>
+          <table border="1">
+              <tr>
+                  <th>役名</th>
+                  <th>類型</th>
+                  <th>描述</th>
+              </tr>
+              <tr>
+                  <td rowspan="2">大三元</td>
+                  <td>難</td>
+                  <td>5z6z7z三組刻子（或槓子）<br>5z5z5z6z6z6z7z7z7z 牌背牌背牌背 牌背牌背</td>
+              </tr>
+              <tr>
+                  <td colspan="2">5z5z5z6z6z6z7z7z7z　牌背牌背牌背　牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">小四喜</td>
+                  <td>超難</td>
+                  <td>🀙2z3z4z其中3種是刻子或槓子，另一種是對子<br>🀙🀙🀙2z2z2z3z3z3z4z4z 牌背牌背牌背</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀙🀙🀙2z2z2z3z3z3z4z4z　牌背牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">大四喜</td>
+                  <td>超難</td>
+                  <td>🀙2z3z4z四組刻子（或槓子）<br>🀙🀙🀙2z2z2z3z3z3z4z4z4z 牌背牌背</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀙🀙🀙2z2z2z3z3z3z4z4z4z　牌背牌背</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">字一色</td>
+                  <td>超難</td>
+                  <td>🀙2z3z4z5z6z7z組成的七對子或對對和<br>🀙🀙🀙2z2z2z5z5z5z6z6z 3z3z加槓33z</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀙🀙🀙2z2z2z5z5z5z6z6z　3z3z加槓33z</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">綠一色</td>
+                  <td>超難</td>
+                  <td>由2s3s4s6s8s6z組成的和牌<br>2s3s4s6z橫6z 橫3s2s4s 加槓66s6s6s 8s8s橫8s</td>
+              </tr>
+              <tr>
+                  <td colspan="2">2s3s4s6z橫6z　橫3s2s4s　加槓66s6s6s　8s8s橫8s</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">清老頭</td>
+                  <td>超難</td>
+                  <td>由🀇🀏🀐🀘🀙🀡組成的對對和<br>🀇🀇🀇🀏🀏🀏🀐橫🀐 🀘🀘橫🀘 🀙🀙加槓1🀙</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀇🀇🀇🀏🀏🀏🀐橫🀐　🀘🀘橫🀘　🀙🀙加槓1🀙</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">役滿役 只能門前淸</td>
+                  <td>國士無雙</td>
+                  <td>難<br>13種么九牌各一枚再加其中任何一枚和牌，聽牌時只有12種么九牌<br>🀇🀏🀙🀡🀐🀘2z2z3z4z5z6z7z橫🀙</td>
+              </tr>
+              <tr>
+                  <td>國士無雙13面</td>
+                  <td>最難<br>么九種類=13，聽🀇🀏🀐🀘🀙🀡🀙2z3z4z5z6z7z橫🀙</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">四暗刻</td>
+                  <td>難</td>
+                  <td>門清對對和，雙碰聽牌，只能自摸。<br>🀙🀙🀙2p2p2p3p3p3p6p6p8p8p橫8p</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀙🀙🀙2p2p2p3p3p3p6p6p8p8p橫8p</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">四暗刻單騎</td>
+                  <td>超難</td>
+                  <td>門清對對和，單騎聽牌<br>🀙🀙🀙2p2p2p3p3p3p6p6p6p8p橫8p</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀙🀙🀙2p2p2p3p3p3p6p6p6p8p橫8p</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">九蓮寶燈</td>
+                  <td>最難</td>
+                  <td>帶有1112345678999的清一色（非9面聽）<br>🀇🀇🀇2m3m4m4m5m6m7m8m🀏🀏橫🀏</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀇🀇🀇2m3m4m4m5m6m7m8m🀏🀏橫🀏</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">純正九蓮寶燈</td>
+                  <td>最難</td>
+                  <td>由1112345678999組成，9面聽清一色<br>🀇🀇🀇2m3m4m5m6m7m8m🀏🀏🀏橫4m</td>
+              </tr>
+              <tr>
+                  <td colspan="2">🀇🀇🀇2m3m4m5m6m7m8m🀏🀏🀏橫4m</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">天和</td>
+                  <td>偶然</td>
+                  <td>親家配牌時和牌</td>
+              </tr>
+              <tr>
+                 
+              </tr>
+              <tr>
+                  <td rowspan="2">地和</td>
+                  <td>偶然</td>
+                  <td>子家首次摸牌時自摸，且之前無吃、碰、槓或拔北</td>
+              </tr>
+              <tr>
+              
+              </tr>
+              <tr>
+                  <td rowspan="2">四槓子</td>
+                  <td>最難</td>
+                  <td>四組槓子<br>牌背牌背 橫🀇🀇🀇🀇 5p5p加槓55p 橫2m2m2m2m 牌背8p8p牌背</td>
+              </tr>
+              <tr>
+              
+              </tr>
+          </table>
+          
+
+
+
+
+
+        </div>
+        
+        </div> 
+        
+        <div class="div2"> </div>
+
+        <div class="div4"></div> 
+      </div>
+
+
+
+    </div>
+  </body>
+</html>
+
+
